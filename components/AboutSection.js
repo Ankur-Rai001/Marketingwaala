@@ -36,14 +36,14 @@ const AboutSection = () => {
                   </li>
                 </ul>
               </div>
-              <div className="flex gap-4 ">
+              <div className="flex gap-4">
                 <div className="bg-custom p-4 rounded-lg shadow-lg flex-1">
                   <h3 className="font-bold text-lg">Total Sales</h3>
                   <p className="text-2xl font-bold mt-2">258</p>
                   <p className="text-sm text-gray-600">Since previous 30 days</p>
                 </div>
                 <div className="bg-white p-4 rounded-lg shadow-lg flex-1">
-                  <h3 className="font-bold text-lg">Today's order</h3>
+                  <h3 className="font-bold text-lg">Today&apos;s order</h3>
                   <p className="text-2xl font-bold mt-2">$150</p>
                   <p className="text-sm text-gray-600">10 products sold</p>
                 </div>
