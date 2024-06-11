@@ -31,3 +31,23 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+
+.text-main-grd {
+  background: linear-gradient(to right, #cfdfdc,#cfdfdc, #eae4cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.bgImg {
+  background-image: url('../public/bg-footer.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+  /* bg-contain bg-center bg-no-repeat */
+}

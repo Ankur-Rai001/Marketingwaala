@@ -2,12 +2,18 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <nav className="bg-white shadow-md rounded-md">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className="bg-white shadow-md rounded-md mb-4">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-1">
                 <div className="flex justify-between h-16">
                     <div className="flex">
                         <div className="flex-shrink-0 flex items-center">
-                            <a href="/" className="text-xl font-bold text-yellow-500">Starship</a>
+                            <img
+                                src={`logo.png`}
+                                alt="Hero"
+                                width={35}
+                                className='mr-4'
+                            />
+                            <a href="/" className="text-xl font-bold text-yellow-500">Marketing Waala</a>
                         </div>
                         <div className="hidden md:flex space-x-8 ml-10 items-center">
                             <div className="relative group">
@@ -36,7 +42,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="flex items-center">
-                        <a href="/login" className="text-gray-900">LOGIN</a>
+                        {/* <a href="/login" className="text-gray-900">LOGIN</a> */}
                         <a href="/get-started" className="ml-4 px-3 py-2 border border-yellow-500 rounded text-yellow-500 hover:bg-yellow-500 hover:text-white transition">GET STARTED</a>
                     </div>
                 </div>
